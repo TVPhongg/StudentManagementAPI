@@ -13,7 +13,12 @@
         /// <summary>
         /// tên lớp
         /// </summary>
-        public string className { get; set; }
+        public string className { get; set; } 
+
+        /// <summary>
+        /// mã khoa
+        /// </summary>
+        public int departmentId { get; set; }
 
         /// <summary>
         /// điều hướng tập hợp đến bảng sinh viên

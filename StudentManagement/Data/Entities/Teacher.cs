@@ -22,6 +22,11 @@
         public string major { get; set; }
 
         /// <summary>
+        ///  mã khoa
+        /// </summary>
+        public int departmentId { get; set; }
+
+        /// <summary>
         /// điều hướng tham chiếu đến bảng khoa
         /// </summary>
         public virtual Department Department { get; set; }

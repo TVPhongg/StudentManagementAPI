@@ -26,7 +26,6 @@ namespace StudentManagement.Data.DBcontext
             modelBuilder.ApplyConfiguration(new SubjectConfig());
             modelBuilder.ApplyConfiguration(new TeacherConfig());
         }
-
         /// <summary>
         /// DbSet: thể hiện của các bảng trong CSDL -> giúp truy xuất dữ liệu từ CSDL
         /// </summary>
